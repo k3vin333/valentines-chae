@@ -11,6 +11,22 @@
     text-align: center;
   }
   
+  .valentine-image {
+    width: 150px;  /* Adjust width as needed */
+    height: auto;   /* Keeps the aspect ratio */
+    display: block;
+    margin: 20px auto;
+}
+
+.top-image {
+    margin-bottom: 10px; /* Space between top image and text */
+}
+
+.bottom-image {
+    margin-top: 20px; /* Space between buttons and bottom image */
+}
+
+
   h1 {
     color: #ff3366;
     margin-bottom: 2rem;
