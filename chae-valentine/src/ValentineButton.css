@@ -1,0 +1,110 @@
+.valentine-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    font-family: 'Comic Sans MS', cursive;
+    touch-action: manipulation;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #ff3366;
+    margin-bottom: 2rem;
+    font-size: calc(1.5rem + 1.5vw);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .request-input {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+  .buttons-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 120px;
+  }
+  
+  .yes-button, .no-button {
+    font-size: 2rem;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    min-width: 150px;
+    transition: all 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .yes-button {
+    background: #ff69b4;
+    color: white;
+    transform-origin: center;
+    z-index: 10;
+    position: relative;
+}
+
+  
+  .no-button {
+    background: #ffffff;
+    color: #333;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .no-button:active {
+    transform: scale(0.95);
+  }
+  
+  @media (max-width: 768px) {
+    .buttons-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .yes-button, .no-button {
+      font-size: 1.5rem;
+      padding: 15px 30px;
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+
+  .restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.restaurant-box {
+    background: white;
+    color: #ff3366;
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-box:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.15);
+}
