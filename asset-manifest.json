@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/valentines-chae/static/css/main.fc010d7a.css",
+    "main.js": "/valentines-chae/static/js/main.8ce1fd42.js",
+    "static/media/IMG_8533.jpg": "/valentines-chae/static/media/IMG_8533.80c894f3a55cbf713ce7.jpg",
+    "static/media/IMG_8534.jpg": "/valentines-chae/static/media/IMG_8534.c1d768b4162485eb9f55.jpg",
+    "index.html": "/valentines-chae/index.html",
+    "main.fc010d7a.css.map": "/valentines-chae/static/css/main.fc010d7a.css.map",
+    "main.8ce1fd42.js.map": "/valentines-chae/static/js/main.8ce1fd42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc010d7a.css",
+    "static/js/main.8ce1fd42.js"
+  ]
+}
